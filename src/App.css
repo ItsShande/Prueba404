@@ -1,8 +1,42 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
+body {
+  /* background-color: rgb(218, 244, 255); */
+  background-color: rgb(49, 36, 58);
 }
 
-body {
-  background-color: rgb(48, 48, 56);
+.main {
+  margin: 1rem;
+}
+
+.inputClass {
+  margin-bottom: 1rem;
+  width: 15rem;
+}
+
+.inputsContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.cardContainer {
+  background-color: rgb(82, 82, 95);
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  width: 6rem;
+  align-items: center;
+  margin-right: 1rem;
+}
+
+.cardItem {
+  color: white;
+}
+
+.dataContainer {
+  display: flex;
+  margin-top: 1rem;
+  background-color: black;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  border-radius: 1rem;
 }
